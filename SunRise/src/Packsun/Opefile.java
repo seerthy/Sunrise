@@ -39,8 +39,8 @@ public class Opefile {
 			/*
 			System.setProperty("webdriver.gecko.driver","C:\\Users\\sritharancc\\eclipse\\Drive\\geckodriver.exe");
 				*/
-			 
-			driver.get("https://gtmetrix.com/");	
+			driver.get("https://property.sulekha.com/");	
+			//driver.get("https://gtmetrix.com/");	
 			driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 			     // LOGIN NEED TO DO 
 			     driver.findElement(By.xpath("//*[@id=\"user-nav-login\"]/a")).click();
